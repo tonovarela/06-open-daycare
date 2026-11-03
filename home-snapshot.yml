@@ -1,0 +1,25 @@
+- generic [active] [ref=f2e1] [box=0,0,1200,654]:
+  - main [ref=f2e3] [box=216,0,768,654]:
+    - img "Next.js logo" [ref=f2e4] [box=280,128,100,20]
+    - generic [ref=f2e5] [box=280,229,448,169]:
+      - heading [level=1] [ref=f2e6] [box=280,229,320,81]:
+        - text: To get started, edit the
+        - code [ref=f2e7] [box=280,270,136,39]: page.tsx
+        - text: file.
+      - paragraph [ref=f2e8] [box=280,334,448,64]:
+        - text: Looking for a starting point or more instructions? Head over to
+        - link "Templates" [ref=f2e9] [cursor=pointer] [box=390,370,87,24]:
+          - /url: https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app
+        - text: or the
+        - link "Learning" [ref=f2e10] [cursor=pointer] [box=534,370,73,24]:
+          - /url: https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app
+        - text: center.
+    - generic [ref=f2e11] [box=280,478,332,48]:
+      - link [ref=f2e12] [cursor=pointer] [box=280,478,158,48]:
+        - /url: https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app
+        - img "Vercel logomark" [ref=f2e13] [box=302,495,16,14]
+        - text: Deploy Now
+      - link "Documentation" [ref=f2e14] [cursor=pointer] [box=454,478,158,48]:
+        - /url: https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app
+  - button "Open Next.js Dev Tools" [ref=f2e20] [cursor=pointer] [box=22,600,32,32]
+  - alert [ref=f2e24] [box=-1,-1,1,1]

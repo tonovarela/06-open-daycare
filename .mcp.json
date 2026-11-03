@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "node",
+      "args": ["./node_modules/.bin/playwright-mcp"],
+      "enabled": true
+    }
+  }
+}
